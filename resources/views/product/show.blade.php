@@ -45,7 +45,7 @@
                             if(count($item->images) > 0){
                                 $image = $item->images[0]['img'];
                             } else {
-                                $item = 'product_1.jpg';
+                                $image = 'product_1.jpg';
                             }
                         @endphp
                         <div class="details_image_large"><img src="/images/{{$image}}" alt="{{$item->title}}"><div class="product_extra product_new"><a href="/categories.html">New</a></div></div>
